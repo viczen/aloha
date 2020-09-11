@@ -123,6 +123,7 @@ function sanitizeHTML(strings) {
 
 
 function checkCategory() {
+    gtag('config', 'GA_MEASUREMENT_ID', {'currency': 'USD'});
     let eatallyoucan = document.getElementById('eatallyoucan');
     let cake = document.getElementById('cake');
     let seafood = document.getElementById('seafood');
